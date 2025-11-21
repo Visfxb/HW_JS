@@ -1,0 +1,32 @@
+table{
+    border-collapse: collapse;
+}
+tr, td{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 12px 12px;
+}
+thead{
+    color: #999;
+}
+.thisMonth{ color: #fff; }
+.notThisMonth{ color: #5a5a5a; }
+.weekDay{ color: rgb(201, 18, 18); }
+.holiday{ color: rgb(201, 18, 18); }
+.today{ color: rgb(0, 180, 0); }
+.calendar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 290px;
+    height: 350px;
+    padding: 45px;
+    background-color: #29323f;
+    border-radius: 10px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fcee6d;
+}
