@@ -1,0 +1,38 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#ex_1{
+    width: 280px;
+    height: 200px;
+    background-color: green;
+    border-radius: 15px;
+    padding: 5px 20px 0 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 20px;
+}
+
+#ex_2{
+    width: 280px;
+    height: 300px;
+    background-color: green;
+    border-radius: 15px;
+    padding: 5px 20px 0 20px;
+}
+
+#ex_3{
+    width: 280px;
+    height: 400px;
+    background-color: green;
+    border-radius: 15px;
+    padding: 5px 20px 0 20px;
+}
