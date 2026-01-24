@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HW-7</title>
+</head>
+<body>
+    <h1>Аудиторії академії</h1>
+
+    <section class="controls">
+        <input type="text" id="facultyFilter" placeholder="Назва факультету">
+        <button onclick="filterByFaculty()">Показати</button>
+
+        <button onclick="sortBySeats()">Сортувати за місцями</button>
+        <button onclick="sortByName()">Сортувати за назвою</button>
+    </section>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Назва</th>
+                <th>Кількість місць</th>
+                <th>Факультет</th>
+                <th>Дії</th>
+            </tr>
+        </thead>
+        <tbody id="auditoriumTable"></tbody>
+    </table>
+
+    <h2>Додати / Редагувати аудиторію</h2>
+    <section class="form">
+        <input type="text" id="name">
+        <input type="number" id="seats" min="10" max="20">
+        <input type="text" id="faculty">
+        <button onclick="saveAuditorium()">Зберегти</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
