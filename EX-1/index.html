@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW-14-1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #ball{
+            width: 100px;
+            height: 100px;
+            transition: transform 0.5s ease-in-out;
+        }
+        #football {
+            width: 100vw;
+            height: 100vh;
+
+            background-image: url('./field.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="football">
+        <img src="./ball.png" alt="" id="ball">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
